@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="format.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Welcome</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home">
+      <div class="intro">
+        <h2>Hi, I'm [Zakyardo]</h2>
+        <p>Newbie Developer & Engineer</p>
+        <a href="#portfolio" class="btn">Explore My Work</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Hello! I am a passionate web developer with a love for creating
+          dynamic and responsive websites. With a keen eye for detail and a
+          dedication to clean code, I strive to bring designs to life and ensure
+          a seamless user experience.
+        </p>
+        <img src="PXL_20240726_160831614-removebg.png" alt="[Zakyardo]" class="profile-pic" />
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <div class="grid">
+          <div class="project">
+            <img src="project1.jpg" alt="Project 1" />
+            <h3>Project 1</h3>
+            <p>Clone Toko Knalpot.</p>
+          </div>
+          <div class="project">
+            <img src="project2.jpg" alt="Project 2" />
+            <h3>Project 2</h3>
+            <p>Coming Soon.</p>
+          </div>
+          <div class="project">
+            <img src="project3.jpg" alt="Project 3" />
+            <h3>Project 3</h3>
+            <p>Coming Soon.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <form action="submit.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 [YTTA 😜]. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
