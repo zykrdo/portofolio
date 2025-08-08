@@ -5,25 +5,56 @@
 }
 
 body {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background-color: #f0f0f0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 header {
-  background: linear-gradient(45deg, #0a0a0a, #ece2e2);
+  background-color: #222;
+  color: white;
   padding: 20px 0;
-  text-align: center;
 }
 
-.welcome-text h1 {
-  color: #e1ff00;
-  font-size: 3rem;
-  margin: 0;
-  padding-bottom: 10px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  animation: fadeIn 2s ease-in-out;
+header .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+
 
 nav ul {
   list-style: none;
@@ -68,11 +99,17 @@ nav ul li a:hover::before {
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; transform: translateY(-20px); }
-  100% { opacity: 1; transform: translateY(0); }
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-}
 
 #home {
   background: url("WhatsApp\ Image\ 2024-09-06\ at\ 15.16.46.jpeg") no-repeat center center/cover;
@@ -118,6 +155,10 @@ h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 30px;
+}
+
+#about p {
+  margin-bottom: 20px;
 }
 
 .profile-pic {
