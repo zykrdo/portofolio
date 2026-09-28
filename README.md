@@ -1,2 +1,0 @@
-# portofolio
-kegabutan gua
